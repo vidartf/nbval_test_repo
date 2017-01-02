@@ -1,3 +1,7 @@
 [regex1]
 regex: <[a-zA-Z0-9._]+ at 0x[a-zA-Z0-9]+>
 replace: MEMORY-ADDRESS
+
+[regex2]
+regex: .*figure\.py:1744: UserWarning:
+replace: PATH/figure\.py:1744: UserWarning:
